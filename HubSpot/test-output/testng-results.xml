@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13972" started-at="2020-12-21T05:29:29Z" finished-at="2020-12-21T05:29:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13972" started-at="2020-12-21T05:29:29Z" finished-at="2020-12-21T05:29:43Z">
+      <class name="Cropin.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Cropin.HomePage@3532ec19]" name="initialize" is-config="true" duration-ms="6931" started-at="2020-12-21T10:59:29Z" finished-at="2020-12-21T10:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Cropin.HomePage@3532ec19]" name="homePageNavigation" duration-ms="7022" started-at="2020-12-21T10:59:36Z" data-provider="getData" finished-at="2020-12-21T10:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shanaha39@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6361862930]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+      </class> <!-- Cropin.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
